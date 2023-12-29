@@ -100,4 +100,9 @@ strong {
     margin: 10px, auto;
     margin-left: 0;
   }
+  .flag img {
+    width: 20%;
+    margin: 10px, auto;
+    margin-left: 0;
+  }
 }
