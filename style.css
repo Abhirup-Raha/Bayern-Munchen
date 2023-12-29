@@ -1,0 +1,112 @@
+ body
+  {
+    background-image: url('./assets/FC_Bayern_Munich_1.jpg'); 
+    background-size: 950px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: bolder;
+  }
+  img
+   {
+    width: 200px;
+    height: 200px;
+    border-radius: 50;
+  }
+  
+  ul 
+  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center; /* Center the list items horizontally */
+    width: 100%; /* Make sure the background color spans the full width */
+  }
+  
+  li 
+  {
+    display: inline-block; /* Display list items as inline-block to center them */
+
+    text-align: center;
+    padding: 14px 16px;
+  }
+  
+  header 
+  {
+    text-align: center;
+    background-color:transparent;
+  }
+  
+  h1
+   {
+    margin: 0;
+    color: aqua;
+  }
+  
+  .player 
+  {
+    margin-bottom: 50px;
+    border: 1px solid red;
+    padding: 20px;
+    border-radius: 10px;
+    width: 750px;
+    margin-left: 555px;
+    background-image: url("https://img.fcbayern.com/image/upload/t_cms-16x9/f_auto/w_1366,h_768,c_fill/v1659101906/cms/public/images/allianz-arena/Sonderbeleuchtung/AR_Zumtobel_AllianzArena_xMas2019_Pinjo_005.jpg");
+    background-size:900px;
+    color: whitesmoke; 
+    opacity: 100%;
+    text-align: center;
+  }
+  
+  h2
+   {
+    color: cyan;
+  }
+  
+  strong 
+  {
+    font-weight: bolder;
+    color: cyan;
+  }
+  @media only screen and (max-width: 600px)
+   {
+    .player 
+    {
+      flex-direction: column;
+      align-items: center;
+    }
+    body {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  .link
+  {
+    color: cyan;
+    text-decoration: none;
+  }
+  .player img
+  {
+    height: 400px;
+    width: 400px;
+    border-radius: 15px;
+  }
+#new
+{
+  color:aqua;
+}
+#old
+{
+  color:red;
+}
+#older
+{
+  color:yellow;
+}
+.flag img
+{
+  height: auto;
+  width: 40px;
+  border-radius: 10%;
+}
+  

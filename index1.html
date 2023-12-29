@@ -1,0 +1,153 @@
+<head>
+    <link rel="stylesheet" href="style1.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FC Bayern Munchen Manager & Coaches (2023-24)</title>
+   </head>
+   <body>
+       <nav>
+           <ul>
+           <li> 
+           <h1>MANAGER & COACHES(2023-24)</a></h1>
+           </li>
+           </ul>
+       </nav>
+       <nav>
+         <ul>
+           <a href="index.html" class="link">&nbsp;BACK</a>
+         </li>
+         </ul>
+     </nav>
+     <div class="coach">
+        <img src="./assets/Thomas_Tuchel.jpg" alt="Your Logo" />
+        <p><strong>Name :&nbsp;&nbsp;</strong>Thomas Tuchel</p><br>
+        <p><strong>Position :&nbsp;&nbsp;</strong>Head Coach</p><br>
+        <p><strong>Age :&nbsp;&nbsp;</strong>50 (29.08.1973)</p>
+        <div class ="flag">
+          Nationality :  
+          <img src="./assets/Germany.png" alt="Germany">
+        </div>
+        <p><strong>Manager since :&nbsp;&nbsp;</strong>2023</p><br>  
+        <br><br><br><br><br><p><strong>Club Achievements :</strong></p>  
+        <br><p>1x Bundesliga</p><br>
+        <p><strong>National Achievements :</strong></p>
+        <p><strong>Individual Achievements : </strong></p>
+        <p>1x VDV Bundesliga Coach Of the Season</p> 
+        <p>1x German Football Manager Of the Year</p> 
+        <p>1x UEFA Men's Coach Of the Year</p>
+        <p>1x IFFHS Men's World's Best Club Coach</p> 
+        <p>1x The Best FIFA Football Coach</p><br>
+        <button class="toggleButton">Show</button>
+        <div class="extraContent">
+        <br><br><br><br><p><strong>Total Appearances :</strong>&nbsp;&nbsp;<b>36</b></p>
+        <p>Total Wins :&nbsp;&nbsp;<b>24</b></p>
+        <p>Total Draws :&nbsp;&nbsp;<b>5</b></p>
+        <p>Total Losses :&nbsp;&nbsp;<b>7</b></p>
+        </div>
+      </div>
+    
+      <div class="coach">
+        <img src="./assets/Anthony_Barry.jpg" alt="Your Logo" />
+        <p><strong>Name :&nbsp;&nbsp;</strong>Anthony Barry</p><br>
+        <p><strong>Position :&nbsp;&nbsp;</strong>Assistant Coach</p><br>
+        <p><strong>Age :&nbsp;&nbsp;</strong>37 (29.05.1986)</p><br>
+        <div class ="flag">
+          Nationality :  
+          <img src="./assets/England.png" alt="England"> 
+        </div>
+        <p><strong>Manager since :&nbsp;&nbsp;</strong>2023</p><br>
+        <br><br><br><p><strong>Club Achievements :</strong></p>  
+        <br><p>1x Bundesliga</p>
+      </div>
+    
+      <div class="coach">
+        <img src="./assets/Arno_Michels.jpg" alt="Your Logo" />
+        <p><strong>Name :&nbsp;&nbsp;</strong>Arno Michels</p><br>
+        <p><strong>Position :&nbsp;&nbsp;</strong>Assistant Coach</p><br>
+        <p><strong>Age :&nbsp;&nbsp;</strong>56 (16.09.1967)</p><br>
+        <div class ="flag">
+          Nationality :  
+          <img src="./assets/Germany.png" alt="Germany">
+        </div>
+        <p><strong>Manager since :&nbsp;&nbsp;</strong>2023</p><br>  
+        <br><br><br><p><strong>Club Achievements :</strong></p>  
+        <br><p>1x Bundesliga</p>
+      </div>
+    
+      <div class="coach">
+        <img src="./assets/Zsolt_Low.jpg" alt="Your Logo" />
+        <p><strong>Name :&nbsp;&nbsp;</strong>Zsolt Law</p><br>
+        <p><strong>Position :&nbsp;&nbsp;</strong>Assistant Coach</p><br>
+        <p><strong>Age :&nbsp;&nbsp;</strong>44 (29.04.1979)</p><br>
+        <div class ="flag">
+          Nationality :  
+          <img src="./assets/Hungary.png" alt="Hungary"> 
+        </div>
+        <p><strong>Manager since :&nbsp;&nbsp;</strong>2023</p><br>  
+        <br><br><br><p><strong>Club Achievements :</strong></p>  
+        <br><p>1x Bundesliga</p>
+      </div>
+    
+      <div class="coach">
+        <img src="./assets/Michael_Rechner.jpg" alt="Your Logo" />
+        <p><strong>Name:&nbsp;&nbsp;</strong>Michael Rechner</p><br>
+        <p><strong>Position:&nbsp;&nbsp;</strong>Goalkeeper Coach</p><br>
+        <p><strong>Age:&nbsp;&nbsp;</strong>43 (27.05.1980)</p><br>
+        <div class ="flag">
+          Nationality :  
+          <img src="./assets/Germany.png" alt="Germany">
+        </div>
+        <p><strong>Manager since:&nbsp;&nbsp;</strong>2023</p><br>  
+        <br><br><br><p><strong>Club Achievements:</strong></p>  
+        <br><p>1x Bundesliga</p>
+        </div>
+    
+      <div class="coach">
+        <img src="./assets/Prof_Dr_Holger_Broich.jpg" alt="Your Logo" />
+        <p><strong>Name:&nbsp;&nbsp;</strong>Prof Dr Holger Broich</p><br>
+        <p><strong>Position:&nbsp;&nbsp;</strong>Fitness Coach</p><br>
+        <p><strong>Age:&nbsp;&nbsp;</strong>49 (18.10.1974)</p><br>
+        <div class ="flag">
+          Nationality :  
+          <img src="./assets/Germany.png" alt="Germany">
+        </div>
+        <p><strong>Manager since:&nbsp;&nbsp;</strong>2014</p><br>  
+        <br><br><br><p><strong>Club Achievements:</strong></p>  
+        <p>9x Bundesliga</p>
+        <p>1x UEFA Champions League</p>
+        <p>3x DFB-Pokal</p>
+        <p>6x DFL-Supercup</p>
+        <p>1x UEFA Super Cup</p><br>
+      </div>
+    </div> 
+    <script>
+       var buttons = document.querySelectorAll(".toggleButton");
+   
+       function close() {
+         buttons.forEach((button) => {
+           button.innerHTML = "Show";
+           button.nextElementSibling.style.display = "none";
+         });
+       }
+       close();
+   
+       buttons.forEach(function (button) 
+       {
+         button.addEventListener("click", function ()
+          {
+           var extraContent = this.nextElementSibling;
+           if (extraContent.style.display === "none") 
+           {
+             button.innerHTML = "Hide";
+             extraContent.style.display = "block";
+           } 
+           else 
+           {
+             button.innerHTML = "Show";
+             extraContent.style.display = "none";
+           }
+         });
+       });
+    </script>
+   </body>
+   </html>
