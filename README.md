@@ -8,3 +8,6 @@ Checkout the website here ⬇️
 
 
 [link]( https://abhirup-raha.github.io/Bayern-Munchen/)
+
+
+Though its not responsive from mobile, so please visit it by your PC
