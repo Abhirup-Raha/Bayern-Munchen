@@ -87,6 +87,7 @@ li {
     width: 90%;
     margin: 10px, auto;
     margin-left: 0;
+    background-size: contain;
   }
   .player img {
     width: 90%;
