@@ -62,6 +62,7 @@ strong {
 .link {
   color: cyan;
   text-decoration: none;
+  cursor: pointer;
 }
 .player img {
   height: 400px;
